@@ -1,27 +1,36 @@
+@font-face {
+    font-family: SMGSans;
+    src: url(SMGSans-Regular.woff) format("woff");
+    font-style: normal;
+    }
+    
 body {
-background-color: black; 
-margin-top: 25px; 
-color:white; 
-font-family: Helvetica, Arial, Sans-Serif;
-}
+	background-color: black; 
+	margin-top: 25px; 
+	color:white; 
+	font-family: SMGSans;
+	}
 
+h1 {
+	text-transform: uppercase;
+	}
+	
 a:link {
-color: white;
-}
+	color: white;
+	}
 
 a:visited {
-color: white;
-}
+	color: white;
+	}
 
 .container {
-margin-left: auto; 
-margin-right: auto; 
-width:515px;
-}
+	margin-left: auto; 
+	margin-right: auto; 
+	width:515px;
+	}
 
 .back {
-position: absolute;
-right: 25px;
-bottom: 25px;
-
-}
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+	}
